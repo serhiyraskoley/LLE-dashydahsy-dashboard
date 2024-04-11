@@ -1,113 +1,11 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-
-/* Own styles */
-
-
-.ant-card-type-inner .ant-card-head-title .link-style{
-  font-size: 20px;
-  font-weight: 500;
-  color: #363092;
-}
-
-.ant-card-type-inner .ant-card-head-title .favorite-link-style{
-  font-size: 20px;
-  font-weight: 500;
-  color: #363092;
-}
-.favorite-icon-style{
-  width: 30px;
-  height: 30px;
-  color: #363092;
-}
-:where(.css-dev-only-do-not-override-1mqg3i0).ant-col-8 {
-  padding-top: 2%;
-}
 
 .block {
-  transition-property: all;
-  transition: 0.2s ease-in-out;
-  &:hover {
-    transform: scale(1.01);
-    -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.4);
-    -moz-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.4);
-    box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.4);
-    border-radius: 10px;
-    border: 1px solid #363092;
-  }
-  &:hover .ant-card-type-inner .ant-card-head-title .link-style{
-    color: white;
-  }
-  &:hover :where(.css-dev-only-do-not-override-1mqg3i0).ant-card-type-inner .ant-card-head {
-    background: linear-gradient(90deg, #363092, transparent) #2196f3;
-  }
-  &:hover .icon-style {
-    color: #363092;
-  }
-  &:hover .fa-border {
-    border-color: #363092;
-  }
-  &:hover .ant-card-meta-description {
-    color: rgba(0, 0, 0, 0.88);
-  }
-  &:hover .block:hover .badge-ribbon-style {
-    opacity: 1;
-    font-weight: 600;
-  }
+  transition: all 0.2s ease-in;
 }
-/* For Firefox browser */
+
 .block:hover {
-    transition-property: all;
-    transition: 0.2s ease-in-out;
-    transform: scale(1.01);
-    -webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.4);
-    -moz-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.4);
-    box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.4);
-    border-radius: 10px;
-    border: 1px solid #363092;
-}
-.block:hover .ant-card-type-inner .ant-card-head-title .link-style {
-  color: white;
-}
-.block:hover :where(.css-dev-only-do-not-override-1mqg3i0).ant-card-type-inner .ant-card-head {
-  background: linear-gradient(90deg, #363092, transparent) #2196f3;
+  transition: all 0.2s ease-out;
+  scale: 1.005;
 }
 .block:hover .icon-style {
   color: #363092;
@@ -117,36 +15,6 @@
 }
 .block:hover .ant-card-meta-description {
   color: rgba(0, 0, 0, 0.88);
-}
-.badge-ribbon-style {
-  opacity: 0;
-}
-.block:hover .badge-ribbon-style {
-  transition: all 0.2s ease-out;
-  transform: scale(1.01);
-  opacity: 1;
-  font-weight: 600;
-  border-left: 2px solid white;
-  border-bottom: 2px solid white;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-}
-.block:hover .tag-style {
-  background-color: #363092;
-  color: white;
-  font-size: 15px;
-  padding: 6px;
-  font-weight: 100;
-}
-.block:hover .button-style {
-  padding: 0;
-  margin: 0;
-  transform: scale(1.01);
-}
-
-.div-style {
-  text-align: right;
 }
 .me:hover::after {
   content: '¯\_(ツ)_/¯ Serhii Raskolei';
@@ -162,25 +30,15 @@
   margin-top: -130px;
   opacity: 0.7;
 }
+.ant-card-head {
+  background: white !important;
+}
 .statistic-style, .center-text  {
   text-align: center;
 }
 .ant-statistic-content-value span {
   color: #363092;
   font-size: 2em;
-}
-.favorited {
-  background-color: #f8f8f8;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.favorite-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-}
-.favorite-button:hover {
-  color: red;
 }
 .span-style {
   padding: 5px 5px 5px 5px;
@@ -197,6 +55,7 @@
   top: 0;
   bottom: 0;
   border-right: 1px solid rgb(217 217 217);
+  position: fixed;
 }
 .content-style {
   display: flex;
@@ -225,7 +84,7 @@
 @keyframes rocket-flying {
   0% {
     transform: translate(1px, 1px);
-    /* scale: 1.1; */
+    scale: 1.1;
   }
   25% {
     transform: translate(-2px, -1px);
@@ -238,14 +97,6 @@
   }
   100% {
     transform: translate(2px, -1px);
-    /* scale: 1.2; */
+    scale: 1.2;
   }
 }
-
-.button-style {
-  padding: 0;
-  margin: 0;
-}
-
-
-/* End */
