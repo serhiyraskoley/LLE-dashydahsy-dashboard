@@ -1,1082 +1,272 @@
 [
   {
     "name": "Item 1",
-    "description": "Description of Item 1",
-    "department": "Department 1",
-    "maintainer": "Maintainer 1",
+    "description": "A delicious blend of roasted coffee beans, perfect for starting your day on the right note. This premium coffee is sourced from sustainable farms and carefully roasted to perfection.",
+    "department": "Beverages",
+    "maintainer": "Coffee Corp",
     "website": "https://example.com/item1",
-    "type": "Type 1",
+    "type": "Beverage",
     "icon": "faCoffee"
   },
   {
     "name": "Item 2",
-    "description": "Description of Item 2",
-    "department": "Department 2",
-    "maintainer": "Maintainer 2",
+    "description": "A sleek and stylish car with advanced features for a smooth driving experience. This luxury vehicle boasts a powerful engine, cutting-edge technology, and a spacious interior designed for comfort.",
+    "department": "Automobiles",
+    "maintainer": "Car Co.",
     "website": "https://example.com/item2",
-    "type": "Type 2",
+    "type": "Vehicle",
     "icon": "faCar"
   },
   {
     "name": "Item 3",
-    "description": "Description of Item 3",
-    "department": "Department 3",
-    "maintainer": "Maintainer 3",
+    "description": "A cozy house with a spacious garden, perfect for family gatherings and relaxation. This charming home features modern amenities, tasteful decor, and stunning views of the surrounding landscape.",
+    "department": "Real Estate",
+    "maintainer": "Home Realty",
     "website": "https://example.com/item3",
-    "type": "Type 3",
+    "type": "Property",
     "icon": "faHouse"
   },
   {
     "name": "Item 4",
-    "description": "Description of Item 4",
-    "department": "Department 4",
-    "maintainer": "Maintainer 4",
+    "description": "A sturdy bicycle designed for both urban commuting and off-road adventures. This versatile bike offers a smooth ride, responsive handling, and durable construction, making it ideal for any terrain.",
+    "department": "Sports & Outdoors",
+    "maintainer": "Bike Works",
     "website": "https://example.com/item4",
-    "type": "Type 4",
+    "type": "Sporting Goods",
     "icon": "faBicycle"
   },
   {
     "name": "Item 5",
-    "description": "Description of Item 5",
-    "department": "Department 5",
-    "maintainer": "Maintainer 5",
+    "description": "A sleek and powerful airplane offering comfortable travel experiences around the world. This modern aircraft is equipped with state-of-the-art amenities, spacious seating, and advanced safety features.",
+    "department": "Aviation",
+    "maintainer": "Air Travel Inc.",
     "website": "https://example.com/item5",
-    "type": "Type 5",
+    "type": "Transportation",
     "icon": "faPlane"
   },
   {
     "name": "Item 6",
-    "description": "Description of Item 6",
-    "department": "Department 6",
-    "maintainer": "Maintainer 6",
+    "description": "A modern and efficient train system providing reliable transportation for commuters. This high-speed train offers a smooth and comfortable ride, with frequent departures and convenient schedules.",
+    "department": "Railway",
+    "maintainer": "Train Services Ltd.",
     "website": "https://example.com/item6",
-    "type": "Type 6",
+    "type": "Transportation",
     "icon": "faTrain"
   },
   {
     "name": "Item 7",
-    "description": "Description of Item 7",
-    "department": "Department 7",
-    "maintainer": "Maintainer 7",
+    "description": "A comfortable and spacious bus offering convenient travel for city commuters and tourists. This reliable bus service features modern amenities, experienced drivers, and multiple routes to popular destinations.",
+    "department": "Public Transport",
+    "maintainer": "City Bus Co.",
     "website": "https://example.com/item7",
-    "type": "Type 7",
+    "type": "Transportation",
     "icon": "faBus"
   },
   {
     "name": "Item 8",
-    "description": "Description of Item 8",
-    "department": "Department 8",
-    "maintainer": "Maintainer 8",
+    "description": "A sleek and powerful motorcycle designed for adventurous riders seeking adrenaline-fueled experiences. This high-performance bike delivers thrilling acceleration, agile handling, and head-turning style.",
+    "department": "Automobiles",
+    "maintainer": "Bike Co.",
     "website": "https://example.com/item8",
-    "type": "Type 8",
+    "type": "Vehicle",
     "icon": "faMotorcycle"
   },
   {
     "name": "Item 9",
-    "description": "Description of Item 9",
-    "department": "Department 9",
-    "maintainer": "Maintainer 9",
+    "description": "A sturdy ship designed for ocean voyages, offering luxurious accommodations and exciting cruise experiences. This magnificent vessel features elegant cabins, gourmet dining, and a wide range of onboard activities.",
+    "department": "Maritime",
+    "maintainer": "Oceanic Cruises",
     "website": "https://example.com/item9",
-    "type": "Type 9",
+    "type": "Transportation",
     "icon": "faShip"
   },
   {
     "name": "Item 10",
-    "description": "Description of Item 10",
-    "department": "Department 10",
-    "maintainer": "Maintainer 10",
+    "description": "A robust truck built for hauling heavy loads and navigating rough terrains with ease. This dependable truck features a durable chassis, powerful engine options, and advanced towing capabilities.",
+    "department": "Automobiles",
+    "maintainer": "Truck Co.",
     "website": "https://example.com/item10",
-    "type": "Type 10",
+    "type": "Vehicle",
     "icon": "faTruck"
   },
   {
     "name": "Item 11",
-    "description": "Description of Item 11",
-    "department": "Department 11",
-    "maintainer": "Maintainer 11",
+    "description": "A sleek and powerful rocket designed for space exploration missions to distant planets and beyond. This cutting-edge spacecraft features advanced propulsion systems, state-of-the-art instrumentation, and spacious interiors for astronauts.",
+    "department": "Space Exploration",
+    "maintainer": "Space Corp",
     "website": "https://example.com/item11",
-    "type": "Type 11",
+    "type": "Aerospace",
     "icon": "faRocket"
   },
   {
     "name": "Item 12",
-    "description": "Description of Item 12",
-    "department": "Department 12",
-    "maintainer": "Maintainer 12",
+    "description": "A modern skyscraper offering luxurious office spaces and stunning views of the city skyline. This iconic building features contemporary architecture, premium amenities, and sustainable design principles.",
+    "department": "Real Estate",
+    "maintainer": "Skyscraper Realty",
     "website": "https://example.com/item12",
-    "type": "Type 12",
+    "type": "Property",
     "icon": "faBuilding"
   },
   {
     "name": "Item 13",
-    "description": "Description of Item 13",
-    "department": "Department 13",
-    "maintainer": "Maintainer 13",
+    "description": "A sleek and stylish wallet crafted from premium leather, perfect for keeping your essentials organized. This luxury accessory features multiple compartments, RFID protection, and exquisite craftsmanship.",
+    "department": "Fashion",
+    "maintainer": "Luxury Wallets Inc.",
     "website": "https://example.com/item13",
-    "type": "Type 13",
+    "type": "Accessory",
     "icon": "faWallet"
   },
   {
     "name": "Item 14",
-    "description": "Description of Item 14",
-    "department": "Department 14",
-    "maintainer": "Maintainer 14",
+    "description": "A versatile globe depicting the world's continents, ideal for educational purposes and decoration. This high-quality globe features accurate cartography, durable construction, and a stylish design.",
+    "department": "Education",
+    "maintainer": "Globe Co.",
     "website": "https://example.com/item14",
-    "type": "Type 14",
+    "type": "Tool",
     "icon": "faGlobe"
   },
   {
     "name": "Item 15",
-    "description": "Description of Item 15",
-    "department": "Department 15",
-    "maintainer": "Maintainer 15",
+    "description": "A majestic tree with lush foliage, providing shade and beauty to its surroundings. This native tree species is known for its resilience, environmental benefits, and aesthetic appeal.",
+    "department": "Landscaping",
+    "maintainer": "Nature Nurseries",
     "website": "https://example.com/item15",
-    "type": "Type 15",
+    "type": "Plant",
     "icon": "faTree"
   },
   {
     "name": "Item 16",
-    "description": "Description of Item 16",
-    "department": "Department 16",
-    "maintainer": "Maintainer 16",
+    "description": "A luxurious watch crafted with precision engineering and exquisite design. This timepiece features Swiss movement, sapphire crystal, and a timeless aesthetic that exudes sophistication.",
+    "department": "Fashion",
+    "maintainer": "Watchmakers Inc.",
     "website": "https://example.com/item16",
-    "type": "Type 16",
-    "icon": "faCoffee"
+    "type": "Accessory",
+    "icon": "faClock"
   },
   {
     "name": "Item 17",
-    "description": "Description of Item 17",
-    "department": "Department 17",
-    "maintainer": "Maintainer 17",
+    "description": "A state-of-the-art smartphone with advanced features for productivity and entertainment. This flagship device boasts a high-resolution display, powerful processor, and innovative camera technology.",
+    "department": "Electronics",
+    "maintainer": "Tech Co.",
     "website": "https://example.com/item17",
-    "type": "Type 17",
-    "icon": "faCar"
+    "type": "Gadget",
+    "icon": "faMobile"
   },
   {
     "name": "Item 18",
-    "description": "Description of Item 18",
-    "department": "Department 18",
-    "maintainer": "Maintainer 18",
+    "description": "A premium sound system delivering immersive audio experiences for music and movies. This high-fidelity speaker setup features wireless connectivity, customizable EQ settings, and sleek design.",
+    "department": "Electronics",
+    "maintainer": "Audio Technologies",
     "website": "https://example.com/item18",
-    "type": "Type 18",
-    "icon": "faHouse"
+    "type": "Gadget",
+    "icon": "faSpeaker"
   },
   {
     "name": "Item 19",
-    "description": "Description of Item 19",
-    "department": "Department 19",
-    "maintainer": "Maintainer 19",
+    "description": "A sophisticated camera capturing stunning images and videos with professional-grade quality. This DSLR camera features interchangeable lenses, manual controls, and advanced shooting modes.",
+    "department": "Photography",
+    "maintainer": "Camera Co.",
     "website": "https://example.com/item19",
-    "type": "Type 19",
-    "icon": "faBicycle"
+    "type": "Device",
+    "icon": "faCamera"
   },
   {
     "name": "Item 20",
-    "description": "Description of Item 20",
-    "department": "Department 20",
-    "maintainer": "Maintainer 20",
+    "description": "A cozy fireplace adding warmth and ambiance to any home or outdoor space. This traditional fireplace features a crackling fire, flickering flames, and a rustic design that evokes nostalgia.",
+    "department": "Home Decor",
+    "maintainer": "Fireplace Inc.",
     "website": "https://example.com/item20",
-    "type": "Type 20",
-    "icon": "faPlane"
+    "type": "Furniture",
+    "icon": "faFire"
   },
   {
     "name": "Item 21",
-    "description": "Description of Item 21",
-    "department": "Department 21",
-    "maintainer": "Maintainer 21",
+    "description": "A vibrant painting depicting breathtaking landscapes or abstract art, perfect for adding color and personality to any room. This artwork is created by talented artists using various mediums and techniques.",
+    "department": "Art",
+    "maintainer": "Art Gallery",
     "website": "https://example.com/item21",
-    "type": "Type 21",
-    "icon": "faTrain"
+    "type": "Decoration",
+    "icon": "faPaintBrush"
   },
   {
     "name": "Item 22",
-    "description": "Description of Item 22",
-    "department": "Department 22",
-    "maintainer": "Maintainer 22",
+    "description": "A sleek laptop with powerful performance for work and entertainment. This ultrabook features a lightweight design, long battery life, and stunning display for immersive computing experiences.",
+    "department": "Electronics",
+    "maintainer": "Tech Co.",
     "website": "https://example.com/item22",
-    "type": "Type 22",
-    "icon": "faBus"
+    "type": "Device",
+    "icon": "faLaptop"
   },
   {
     "name": "Item 23",
-    "description": "Description of Item 23",
-    "department": "Department 23",
-    "maintainer": "Maintainer 23",
+    "description": "A comfortable sofa offering plush seating and contemporary style for living rooms or lounges. This sofa features premium upholstery, ergonomic design, and sturdy construction for long-lasting comfort.",
+    "department": "Furniture",
+    "maintainer": "Sofa Co.",
     "website": "https://example.com/item23",
-    "type": "Type 23",
-    "icon": "faMotorcycle"
+    "type": "Furniture",
+    "icon": "faCouch"
   },
   {
     "name": "Item 24",
-    "description": "Description of Item 24",
-    "department": "Department 24",
-    "maintainer": "Maintainer 24",
+    "description": "A spacious refrigerator keeping your food fresh and organized with innovative cooling technology. This fridge features adjustable shelves, energy-efficient operation, and convenient storage compartments.",
+    "department": "Appliances",
+    "maintainer": "Appliance Co.",
     "website": "https://example.com/item24",
-    "type": "Type 24",
-    "icon": "faShip"
+    "type": "Appliance",
+    "icon": "faFridge"
   },
   {
     "name": "Item 25",
-    "description": "Description of Item 25",
-    "department": "Department 25",
-    "maintainer": "Maintainer 25",
+    "description": "A stylish backpack offering ample storage and ergonomic design for daily commutes or outdoor adventures. This backpack features padded straps, multiple compartments, and water-resistant material.",
+    "department": "Fashion",
+    "maintainer": "Backpack Co.",
     "website": "https://example.com/item25",
-    "type": "Type 25",
-    "icon": "faTruck"
+    "type": "Accessory",
+    "icon": "faBackpack"
   },
   {
     "name": "Item 26",
-    "description": "Description of Item 26",
-    "department": "Department 26",
-    "maintainer": "Maintainer 26",
+    "description": "A versatile tool kit containing essential tools for DIY projects, repairs, or maintenance tasks. This toolkit features high-quality tools, organized storage, and compact design for easy portability.",
+    "department": "Tools",
+    "maintainer": "Tool Co.",
     "website": "https://example.com/item26",
-    "type": "Type 26",
-    "icon": "faRocket"
+    "type": "Tool",
+    "icon": "faToolbox"
   },
   {
     "name": "Item 27",
-    "description": "Description of Item 27",
-    "department": "Department 27",
-    "maintainer": "Maintainer 27",
+    "description": "A luxurious spa offering rejuvenating treatments and relaxation experiences for mind and body. This spa features tranquil settings, professional therapists, and a wide range of wellness services.",
+    "department": "Wellness",
+    "maintainer": "Spa Resort",
     "website": "https://example.com/item27",
-    "type": "Type 27",
-    "icon": "faBuilding"
+    "type": "Service",
+    "icon": "faSpa"
   },
   {
     "name": "Item 28",
-    "description": "Description of Item 28",
-    "department": "Department 28",
-    "maintainer": "Maintainer 28",
+    "description": "A premium wine collection featuring a variety of exquisite wines from renowned vineyards around the world. This wine set is curated for discerning enthusiasts and special occasions.",
+    "department": "Beverages",
+    "maintainer": "Winery Co.",
     "website": "https://example.com/item28",
-    "type": "Type 28",
-    "icon": "faWallet"
+    "type": "Beverage",
+    "icon": "faWineGlass"
   },
   {
     "name": "Item 29",
-    "description": "Description of Item 29",
-    "department": "Department 29",
-    "maintainer": "Maintainer 29",
+    "description": "A sophisticated watch winder keeping your automatic watches running smoothly and accurately. This watch accessory features quiet operation, customizable settings, and elegant design.",
+    "department": "Fashion",
+    "maintainer": "Watchmakers Inc.",
     "website": "https://example.com/item29",
-    "type": "Type 29",
-    "icon": "faGlobe"
+    "type": "Accessory",
+    "icon": "faClock"
   },
   {
     "name": "Item 30",
-    "description": "Description of Item 30",
-    "department": "Department 30",
-    "maintainer": "Maintainer 30",
+    "description": "A compact drone capturing stunning aerial photos and videos with ease. This drone features intelligent flight modes, high-resolution camera, and stable hovering capabilities.",
+    "department": "Electronics",
+    "maintainer": "Drone Co.",
     "website": "https://example.com/item30",
-    "type": "Type 30",
-    "icon": "faTree"
-  },
-  {
-    "name": "Item 31",
-    "description": "Description of Item 31",
-    "department": "Department 31",
-    "maintainer": "Maintainer 31",
-    "website": "https://example.com/item31",
-    "type": "Type 31",
-    "icon": "faCoffee"
-  },
-  {
-    "name": "Item 32",
-    "description": "Description of Item 32",
-    "department": "Department 32",
-    "maintainer": "Maintainer 32",
-    "website": "https://example.com/item32",
-    "type": "Type 32",
-    "icon": "faCar"
-  },
-  {
-    "name": "Item 33",
-    "description": "Description of Item 33",
-    "department": "Department 33",
-    "maintainer": "Maintainer 33",
-    "website": "https://example.com/item33",
-    "type": "Type 33",
-    "icon": "faHouse"
-  },
-  {
-    "name": "Item 34",
-    "description": "Description of Item 34",
-    "department": "Department 34",
-    "maintainer": "Maintainer 34",
-    "website": "https://example.com/item34",
-    "type": "Type 34",
-    "icon": "faBicycle"
-  },
-  {
-    "name": "Item 35",
-    "description": "Description of Item 35",
-    "department": "Department 35",
-    "maintainer": "Maintainer 35",
-    "website": "https://example.com/item35",
-    "type": "Type 35",
-    "icon": "faPlane"
-  },
-  {
-    "name": "Item 36",
-    "description": "Description of Item 36",
-    "department": "Department 36",
-    "maintainer": "Maintainer 36",
-    "website": "https://example.com/item36",
-    "type": "Type 36",
-    "icon": "faTrain"
-  },
-  {
-    "name": "Item 37",
-    "description": "Description of Item 37",
-    "department": "Department 37",
-    "maintainer": "Maintainer 37",
-    "website": "https://example.com/item37",
-    "type": "Type 37",
-    "icon": "faBus"
-  },
-  {
-    "name": "Item 38",
-    "description": "Description of Item 38",
-    "department": "Department 38",
-    "maintainer": "Maintainer 38",
-    "website": "https://example.com/item38",
-    "type": "Type 38",
-    "icon": "faMotorcycle"
-  },
-  {
-    "name": "Item 39",
-    "description": "Description of Item 39",
-    "department": "Department 39",
-    "maintainer": "Maintainer 39",
-    "website": "https://example.com/item39",
-    "type": "Type 39",
-    "icon": "faShip"
-  },
-  {
-    "name": "Item 40",
-    "description": "Description of Item 40",
-    "department": "Department 40",
-    "maintainer": "Maintainer 40",
-    "website": "https://example.com/item40",
-    "type": "Type 40",
-    "icon": "faTruck"
-  },
-  {
-    "name": "Item 41",
-    "description": "Description of Item 41",
-    "department": "Department 41",
-    "maintainer": "Maintainer 41",
-    "website": "https://example.com/item41",
-    "type": "Type 41",
-    "icon": "faRocket"
-  },
-  {
-    "name": "Item 42",
-    "description": "Description of Item 42",
-    "department": "Department 42",
-    "maintainer": "Maintainer 42",
-    "website": "https://example.com/item42",
-    "type": "Type 42",
-    "icon": "faBuilding"
-  },
-  {
-    "name": "Item 43",
-    "description": "Description of Item 43",
-    "department": "Department 43",
-    "maintainer": "Maintainer 43",
-    "website": "https://example.com/item43",
-    "type": "Type 43",
-    "icon": "faWallet"
-  },
-  {
-    "name": "Item 44",
-    "description": "Description of Item 44",
-    "department": "Department 44",
-    "maintainer": "Maintainer 44",
-    "website": "https://example.com/item44",
-    "type": "Type 44",
-    "icon": "faGlobe"
-  },
-  {
-    "name": "Item 45",
-    "description": "Description of Item 45",
-    "department": "Department 45",
-    "maintainer": "Maintainer 45",
-    "website": "https://example.com/item45",
-    "type": "Type 45",
-    "icon": "faTree"
-  },
-  {
-    "name": "Item 46",
-    "description": "Description of Item 46",
-    "department": "Department 46",
-    "maintainer": "Maintainer 46",
-    "website": "https://example.com/item46",
-    "type": "Type 46",
-    "icon": "faCoffee"
-  },
-  {
-    "name": "Item 47",
-    "description": "Description of Item 47",
-    "department": "Department 47",
-    "maintainer": "Maintainer 47",
-    "website": "https://example.com/item47",
-    "type": "Type 47",
-    "icon": "faCar"
-  },
-  {
-    "name": "Item 48",
-    "description": "Description of Item 48",
-    "department": "Department 48",
-    "maintainer": "Maintainer 48",
-    "website": "https://example.com/item48",
-    "type": "Type 48",
-    "icon": "faHouse"
-  },
-  {
-    "name": "Item 49",
-    "description": "Description of Item 49",
-    "department": "Department 49",
-    "maintainer": "Maintainer 49",
-    "website": "https://example.com/item49",
-    "type": "Type 49",
-    "icon": "faBicycle"
-  },
-  {
-    "name": "Item 50",
-    "description": "Description of Item 50",
-    "department": "Department 50",
-    "maintainer": "Maintainer 50",
-    "website": "https://example.com/item50",
-    "type": "Type 50",
-    "icon": "faPlane"
-  },
-  {
-    "name": "Item 51",
-    "description": "Description of Item 51",
-    "department": "Department 51",
-    "maintainer": "Maintainer 51",
-    "website": "https://example.com/item51",
-    "type": "Type 51",
-    "icon": "faTrain"
-  },
-  {
-    "name": "Item 52",
-    "description": "Description of Item 52",
-    "department": "Department 52",
-    "maintainer": "Maintainer 52",
-    "website": "https://example.com/item52",
-    "type": "Type 52",
-    "icon": "faBus"
-  },
-  {
-    "name": "Item 53",
-    "description": "Description of Item 53",
-    "department": "Department 53",
-    "maintainer": "Maintainer 53",
-    "website": "https://example.com/item53",
-    "type": "Type 53",
-    "icon": "faMotorcycle"
-  },
-  {
-    "name": "Item 54",
-    "description": "Description of Item 54",
-    "department": "Department 54",
-    "maintainer": "Maintainer 54",
-    "website": "https://example.com/item54",
-    "type": "Type 54",
-    "icon": "faShip"
-  },
-  {
-    "name": "Item 55",
-    "description": "Description of Item 55",
-    "department": "Department 55",
-    "maintainer": "Maintainer 55",
-    "website": "https://example.com/item55",
-    "type": "Type 55",
-    "icon": "faTruck"
-  },
-  {
-    "name": "Item 56",
-    "description": "Description of Item 56",
-    "department": "Department 56",
-    "maintainer": "Maintainer 56",
-    "website": "https://example.com/item56",
-    "type": "Type 56",
-    "icon": "faRocket"
-  },
-  {
-    "name": "Item 57",
-    "description": "Description of Item 57",
-    "department": "Department 57",
-    "maintainer": "Maintainer 57",
-    "website": "https://example.com/item57",
-    "type": "Type 57",
-    "icon": "faBuilding"
-  },
-  {
-    "name": "Item 58",
-    "description": "Description of Item 58",
-    "department": "Department 58",
-    "maintainer": "Maintainer 58",
-    "website": "https://example.com/item58",
-    "type": "Type 58",
-    "icon": "faWallet"
-  },
-  {
-    "name": "Item 59",
-    "description": "Description of Item 59",
-    "department": "Department 59",
-    "maintainer": "Maintainer 59",
-    "website": "https://example.com/item59",
-    "type": "Type 59",
-    "icon": "faGlobe"
-  },
-  {
-    "name": "Item 60",
-    "description": "Description of Item 60",
-    "department": "Department 60",
-    "maintainer": "Maintainer 60",
-    "website": "https://example.com/item60",
-    "type": "Type 60",
-    "icon": "faTree"
-  },
-  {
-    "name": "Item 61",
-    "description": "Description of Item 61",
-    "department": "Department 61",
-    "maintainer": "Maintainer 61",
-    "website": "https://example.com/item61",
-    "type": "Type 61",
-    "icon": "faCoffee"
-  },
-  {
-    "name": "Item 62",
-    "description": "Description of Item 62",
-    "department": "Department 62",
-    "maintainer": "Maintainer 62",
-    "website": "https://example.com/item62",
-    "type": "Type 62",
-    "icon": "faCar"
-  },
-  {
-    "name": "Item 63",
-    "description": "Description of Item 63",
-    "department": "Department 63",
-    "maintainer": "Maintainer 63",
-    "website": "https://example.com/item63",
-    "type": "Type 63",
-    "icon": "faHouse"
-  },
-  {
-    "name": "Item 64",
-    "description": "Description of Item 64",
-    "department": "Department 64",
-    "maintainer": "Maintainer 64",
-    "website": "https://example.com/item64",
-    "type": "Type 64",
-    "icon": "faBicycle"
-  },
-  {
-    "name": "Item 65",
-    "description": "Description of Item 65",
-    "department": "Department 65",
-    "maintainer": "Maintainer 65",
-    "website": "https://example.com/item65",
-    "type": "Type 65",
-    "icon": "faPlane"
-  },
-  {
-    "name": "Item 66",
-    "description": "Description of Item 66",
-    "department": "Department 66",
-    "maintainer": "Maintainer 66",
-    "website": "https://example.com/item66",
-    "type": "Type 66",
-    "icon": "faTrain"
-  },
-  {
-    "name": "Item 67",
-    "description": "Description of Item 67",
-    "department": "Department 67",
-    "maintainer": "Maintainer 67",
-    "website": "https://example.com/item67",
-    "type": "Type 67",
-    "icon": "faBus"
-  },
-  {
-    "name": "Item 68",
-    "description": "Description of Item 68",
-    "department": "Department 68",
-    "maintainer": "Maintainer 68",
-    "website": "https://example.com/item68",
-    "type": "Type 68",
-    "icon": "faMotorcycle"
-  },
-  {
-    "name": "Item 69",
-    "description": "Description of Item 69",
-    "department": "Department 69",
-    "maintainer": "Maintainer 69",
-    "website": "https://example.com/item69",
-    "type": "Type 69",
-    "icon": "faShip"
-  },
-  {
-    "name": "Item 70",
-    "description": "Description of Item 70",
-    "department": "Department 70",
-    "maintainer": "Maintainer 70",
-    "website": "https://example.com/item70",
-    "type": "Type 70",
-    "icon": "faTruck"
-  },
-  {
-    "name": "Item 71",
-    "description": "Description of Item 71",
-    "department": "Department 71",
-    "maintainer": "Maintainer 71",
-    "website": "https://example.com/item71",
-    "type": "Type 71",
-    "icon": "faRocket"
-  },
-  {
-    "name": "Item 72",
-    "description": "Description of Item 72",
-    "department": "Department 72",
-    "maintainer": "Maintainer 72",
-    "website": "https://example.com/item72",
-    "type": "Type 72",
-    "icon": "faBuilding"
-  },
-  {
-    "name": "Item 73",
-    "description": "Description of Item 73",
-    "department": "Department 73",
-    "maintainer": "Maintainer 73",
-    "website": "https://example.com/item73",
-    "type": "Type 73",
-    "icon": "faWallet"
-  },
-  {
-    "name": "Item 74",
-    "description": "Description of Item 74",
-    "department": "Department 74",
-    "maintainer": "Maintainer 74",
-    "website": "https://example.com/item74",
-    "type": "Type 74",
-    "icon": "faGlobe"
-  },
-  {
-    "name": "Item 75",
-    "description": "Description of Item 75",
-    "department": "Department 75",
-    "maintainer": "Maintainer 75",
-    "website": "https://example.com/item75",
-    "type": "Type 75",
-    "icon": "faTree"
-  },
-  {
-    "name": "Item 76",
-    "description": "Description of Item 76",
-    "department": "Department 76",
-    "maintainer": "Maintainer 76",
-    "website": "https://example.com/item76",
-    "type": "Type 76",
-    "icon": "faCoffee"
-  },
-  {
-    "name": "Item 77",
-    "description": "Description of Item 77",
-    "department": "Department 77",
-    "maintainer": "Maintainer 77",
-    "website": "https://example.com/item77",
-    "type": "Type 77",
-    "icon": "faCar"
-  },
-  {
-    "name": "Item 78",
-    "description": "Description of Item 78",
-    "department": "Department 78",
-    "maintainer": "Maintainer 78",
-    "website": "https://example.com/item78",
-    "type": "Type 78",
-    "icon": "faHouse"
-  },
-  {
-    "name": "Item 79",
-    "description": "Description of Item 79",
-    "department": "Department 79",
-    "maintainer": "Maintainer 79",
-    "website": "https://example.com/item79",
-    "type": "Type 79",
-    "icon": "faBicycle"
-  },
-  {
-    "name": "Item 80",
-    "description": "Description of Item 80",
-    "department": "Department 80",
-    "maintainer": "Maintainer 80",
-    "website": "https://example.com/item80",
-    "type": "Type 80",
-    "icon": "faPlane"
-  },
-  {
-    "name": "Item 81",
-    "description": "Description of Item 81",
-    "department": "Department 81",
-    "maintainer": "Maintainer 81",
-    "website": "https://example.com/item81",
-    "type": "Type 81",
-    "icon": "faTrain"
-  },
-  {
-    "name": "Item 82",
-    "description": "Description of Item 82",
-    "department": "Department 82",
-    "maintainer": "Maintainer 82",
-    "website": "https://example.com/item82",
-    "type": "Type 82",
-    "icon": "faBus"
-  },
-  {
-    "name": "Item 83",
-    "description": "Description of Item 83",
-    "department": "Department 83",
-    "maintainer": "Maintainer 83",
-    "website": "https://example.com/item83",
-    "type": "Type 83",
-    "icon": "faMotorcycle"
-  },
-  {
-    "name": "Item 84",
-    "description": "Description of Item 84",
-    "department": "Department 84",
-    "maintainer": "Maintainer 84",
-    "website": "https://example.com/item84",
-    "type": "Type 84",
-    "icon": "faShip"
-  },
-  {
-    "name": "Item 85",
-    "description": "Description of Item 85",
-    "department": "Department 85",
-    "maintainer": "Maintainer 85",
-    "website": "https://example.com/item85",
-    "type": "Type 85",
-    "icon": "faTruck"
-  },
-  {
-    "name": "Item 86",
-    "description": "Description of Item 86",
-    "department": "Department 86",
-    "maintainer": "Maintainer 86",
-    "website": "https://example.com/item86",
-    "type": "Type 86",
-    "icon": "faRocket"
-  },
-  {
-    "name": "Item 87",
-    "description": "Description of Item 87",
-    "department": "Department 87",
-    "maintainer": "Maintainer 87",
-    "website": "https://example.com/item87",
-    "type": "Type 87",
-    "icon": "faBuilding"
-  },
-  {
-    "name": "Item 88",
-    "description": "Description of Item 88",
-    "department": "Department 88",
-    "maintainer": "Maintainer 88",
-    "website": "https://example.com/item88",
-    "type": "Type 88",
-    "icon": "faWallet"
-  },
-  {
-    "name": "Item 89",
-    "description": "Description of Item 89",
-    "department": "Department 89",
-    "maintainer": "Maintainer 89",
-    "website": "https://example.com/item89",
-    "type": "Type 89",
-    "icon": "faGlobe"
-  },
-  {
-    "name": "Item 90",
-    "description": "Description of Item 90",
-    "department": "Department 90",
-    "maintainer": "Maintainer 90",
-    "website": "https://example.com/item90",
-    "type": "Type 90",
-    "icon": "faTree"
-  },
-  {
-    "name": "Item 91",
-    "description": "Description of Item 91",
-    "department": "Department 91",
-    "maintainer": "Maintainer 91",
-    "website": "https://example.com/item91",
-    "type": "Type 91",
-    "icon": "faCoffee"
-  },
-  {
-    "name": "Item 92",
-    "description": "Description of Item 92",
-    "department": "Department 92",
-    "maintainer": "Maintainer 92",
-    "website": "https://example.com/item92",
-    "type": "Type 92",
-    "icon": "faCar"
-  },
-  {
-    "name": "Item 93",
-    "description": "Description of Item 93",
-    "department": "Department 93",
-    "maintainer": "Maintainer 93",
-    "website": "https://example.com/item93",
-    "type": "Type 93",
-    "icon": "faHouse"
-  },
-  {
-    "name": "Item 94",
-    "description": "Description of Item 94",
-    "department": "Department 94",
-    "maintainer": "Maintainer 94",
-    "website": "https://example.com/item94",
-    "type": "Type 94",
-    "icon": "faBicycle"
-  },
-  {
-    "name": "Item 95",
-    "description": "Description of Item 95",
-    "department": "Department 95",
-    "maintainer": "Maintainer 95",
-    "website": "https://example.com/item95",
-    "type": "Type 95",
-    "icon": "faPlane"
-  },
-  {
-    "name": "Item 96",
-    "description": "Description of Item 96",
-    "department": "Department 96",
-    "maintainer": "Maintainer 96",
-    "website": "https://example.com/item96",
-    "type": "Type 96",
-    "icon": "faTrain"
-  },
-  {
-    "name": "Item 97",
-    "description": "Description of Item 97",
-    "department": "Department 97",
-    "maintainer": "Maintainer 97",
-    "website": "https://example.com/item97",
-    "type": "Type 97",
-    "icon": "faBus"
-  },
-  {
-    "name": "Item 98",
-    "description": "Description of Item 98",
-    "department": "Department 98",
-    "maintainer": "Maintainer 98",
-    "website": "https://example.com/item98",
-    "type": "Type 98",
-    "icon": "faMotorcycle"
-  },
-  {
-    "name": "Item 99",
-    "description": "Description of Item 99",
-    "department": "Department 99",
-    "maintainer": "Maintainer 99",
-    "website": "https://example.com/item99",
-    "type": "Type 99",
-    "icon": "faShip"
-  },
-  {
-    "name": "Item 100",
-    "description": "Description of Item 100",
-    "department": "Department 100",
-    "maintainer": "Maintainer 100",
-    "website": "https://example.com/item100",
-    "type": "Type 100",
-    "icon": "faTruck"
-  },
-  {
-    "name": "Item 101",
-    "description": "Description of Item 101",
-    "department": "Department 101",
-    "maintainer": "Maintainer 101",
-    "website": "https://example.com/item101",
-    "type": "Type 101",
-    "icon": "faRocket"
-  },
-  {
-    "name": "Item 102",
-    "description": "Description of Item 102",
-    "department": "Department 102",
-    "maintainer": "Maintainer 102",
-    "website": "https://example.com/item102",
-    "type": "Type 102",
-    "icon": "faBuilding"
-  },
-  {
-    "name": "Item 103",
-    "description": "Description of Item 103",
-    "department": "Department 103",
-    "maintainer": "Maintainer 103",
-    "website": "https://example.com/item103",
-    "type": "Type 103",
-    "icon": "faWallet"
-  },
-  {
-    "name": "Item 104",
-    "description": "Description of Item 104",
-    "department": "Department 104",
-    "maintainer": "Maintainer 104",
-    "website": "https://example.com/item104",
-    "type": "Type 104",
-    "icon": "faGlobe"
-  },
-  {
-    "name": "Item 105",
-    "description": "Description of Item 105",
-    "department": "Department 105",
-    "maintainer": "Maintainer 105",
-    "website": "https://example.com/item105",
-    "type": "Type 105",
-    "icon": "faTree"
-  },
-  {
-    "name": "Item 106",
-    "description": "Description of Item 106",
-    "department": "Department 106",
-    "maintainer": "Maintainer 106",
-    "website": "https://example.com/item106",
-    "type": "Type 106",
-    "icon": "faCoffee"
-  },
-  {
-    "name": "Item 107",
-    "description": "Description of Item 107",
-    "department": "Department 107",
-    "maintainer": "Maintainer 107",
-    "website": "https://example.com/item107",
-    "type": "Type 107",
-    "icon": "faCar"
-  },
-  {
-    "name": "Item 108",
-    "description": "Description of Item 108",
-    "department": "Department 108",
-    "maintainer": "Maintainer 108",
-    "website": "https://example.com/item108",
-    "type": "Type 108",
-    "icon": "faHouse"
-  },
-  {
-    "name": "Item 109",
-    "description": "Description of Item 109",
-    "department": "Department 109",
-    "maintainer": "Maintainer 109",
-    "website": "https://example.com/item109",
-    "type": "Type 109",
-    "icon": "faBicycle"
-  },
-  {
-    "name": "Item 110",
-    "description": "Description of Item 110",
-    "department": "Department 110",
-    "maintainer": "Maintainer 110",
-    "website": "https://example.com/item110",
-    "type": "Type 110",
-    "icon": "faPlane"
-  },
-  {
-    "name": "Item 111",
-    "description": "Description of Item 111",
-    "department": "Department 111",
-    "maintainer": "Maintainer 111",
-    "website": "https://example.com/item111",
-    "type": "Type 111",
-    "icon": "faTrain"
-  },
-  {
-    "name": "Item 112",
-    "description": "Description of Item 112",
-    "department": "Department 112",
-    "maintainer": "Maintainer 112",
-    "website": "https://example.com/item112",
-    "type": "Type 112",
-    "icon": "faBus"
-  },
-  {
-    "name": "Item 113",
-    "description": "Description of Item 113",
-    "department": "Department 113",
-    "maintainer": "Maintainer 113",
-    "website": "https://example.com/item113",
-    "type": "Type 113",
-    "icon": "faMotorcycle"
-  },
-  {
-    "name": "Item 114",
-    "description": "Description of Item 114",
-    "department": "Department 114",
-    "maintainer": "Maintainer 114",
-    "website": "https://example.com/item114",
-    "type": "Type 114",
-    "icon": "faShip"
-  },
-  {
-    "name": "Item 115",
-    "description": "Description of Item 115",
-    "department": "Department 115",
-    "maintainer": "Maintainer 115",
-    "website": "https://example.com/item115",
-    "type": "Type 115",
-    "icon": "faTruck"
-  },
-  {
-    "name": "Item 116",
-    "description": "Description of Item 116",
-    "department": "Department 116",
-    "maintainer": "Maintainer 116",
-    "website": "https://example.com/item116",
-    "type": "Type 116",
-    "icon": "faRocket"
-  },
-  {
-    "name": "Item 117",
-    "description": "Description of Item 117",
-    "department": "Department 117",
-    "maintainer": "Maintainer 117",
-    "website": "https://example.com/item117",
-    "type": "Type 117",
-    "icon": "faBuilding"
-  },
-  {
-    "name": "Item 118",
-    "description": "Description of Item 118",
-    "department": "Department 118",
-    "maintainer": "Maintainer 118",
-    "website": "https://example.com/item118",
-    "type": "Type 118",
-    "icon": "faWallet"
-  },
-  {
-    "name": "Item 119",
-    "description": "Description of Item 119",
-    "department": "Department 119",
-    "maintainer": "Maintainer 119",
-    "website": "https://example.com/item119",
-    "type": "Type 119",
-    "icon": "faGlobe"
-  },
-  {
-    "name": "Item 120",
-    "description": "Description of Item 120",
-    "department": "Department 120",
-    "maintainer": "Maintainer 120",
-    "website": "https://example.com/item120",
-    "type": "Type 120",
-    "icon": "faTree"
+    "type": "Gadget",
+    "icon": "faDrone"
   }
 ]
