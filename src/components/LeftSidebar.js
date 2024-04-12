@@ -3,11 +3,21 @@ import { Layout, Typography, Divider, Input, Statistic } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from '../assets/logo.png';
 import '../assets/App.css'
+import CountUp from 'react-countup';
 
 const { Sider } = Layout;
 const { Link } = Typography;
+const { Search } = Input;
 
-const LeftSidebar = () => {
+const formatter = (value) => <CountUp end={value} duration={1} />;
+
+// (value: number, name: string
+// = (value) => <CountUp end={value} duration={5} />;
+
+const LeftSidebar = ({ cards, onSearchChange }) => {
+  const handleSearchChange = (event) => {
+    onSearchChange(event.target.value);
+  }
   return (
       <Sider className="sider-container" theme="light" width="250" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'fixed'}}>
         <div className="content-style">
@@ -18,9 +28,9 @@ const LeftSidebar = () => {
             </div>
           </div>
           <Divider />
-          <p><Input placeholder="Search by maintainer" allowClear  /></p> {/*value={searchBy} onChange={handleSearchChange}*/}
+          <p><Input placeholder="Search by maintainer" allowClear onChange={handleSearchChange} /></p> {/*value={searchBy} onChange={handleSearchChange}*/}
           <Divider />
-          <Statistic title="Projects" className="center-text"/> {/*value={internalSoftware.length } formatter={formatter}*/}
+          <Statistic title="Projects" value={cards.length} className="center-text" formatter={formatter} /> {/*value={internalSoftware.length } formatter={formatter}*/}
           <Divider />
           <Link href="http://terdvp0001.sebn.com:5000/public/dashboards/zA0lU6QjX5zN2tgcExamQ91A4lLRqj32EqrLHFZq?org_slug=default" target="_blank" className="center-text">
             <p>You can see our progress on the</p> public dashboard
