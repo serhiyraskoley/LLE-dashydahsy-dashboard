@@ -1,8 +1,9 @@
-
+body {
+  background: whitesmoke;
+}
 .block {
   transition: all 0.2s ease-in;
 }
-
 .block:hover {
   transition: all 0.2s ease-out;
   scale: 1.005;
@@ -17,7 +18,7 @@
   color: rgba(0, 0, 0, 0.88);
 }
 .me:hover::after {
-  content: '¯\_(ツ)_/¯ Serhii Raskolei';
+  content: '😶‍🌫️ Serhii Raskolei';
   position: absolute;
   background-color: #363092;
   color: white;
@@ -26,7 +27,7 @@
   font-weight: 600;
   z-index: 1;
   width: 150px;
-  margin-left: -130px;
+  margin-left: -120px;
   margin-top: -130px;
   opacity: 0.7;
 }
