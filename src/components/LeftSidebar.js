@@ -38,7 +38,7 @@ const LeftSidebar = ({ cards, onSearchChange }) => {
           <Divider />
           Made with
           <p>
-            <FontAwesomeIcon icon="fa-heart" size="8x" color="#98002e" />
+            <FontAwesomeIcon icon="fa-heart" size="8x" color="#C13540" />
           </p>
           by
           <p><span className="me span-style">IT department</span></p>
