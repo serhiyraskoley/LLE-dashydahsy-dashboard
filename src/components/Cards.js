@@ -46,7 +46,7 @@ const CustomCards = ({ cards, onFavorite, favorites }) => {
                 <Card hoverable title={<Link href={card.website} target='_blank' className='link-style'>{card.name}</Link>} bordered={true} >
                   <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: 16 }}>
                     <Meta
-                      avatar={<FontAwesomeIcon icon={card.icon in fas ? fas[card.icon] : fas['faQuestion']} size='3x' color={card.isFavorite ? '#C13540' : '#f5f5f5'} border className='icon-style' onClick={() => toggleFavorite(index)} />}
+                      avatar={<FontAwesomeIcon icon={card.icon in fas ? fas[card.icon] : fas['faQuestion']} size='3x' color={card.isFavorite ? '#C13540' : '#363092'} border className='icon-style' onClick={() => toggleFavorite(index)} />}
                       title={card.title}
                       description={card.showFullDescription ? card.description : `${card.description.substring(0, 100)}...`}
                     />
