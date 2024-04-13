@@ -9,15 +9,31 @@ const { Content } = Layout;
 const { Meta } = Card;
 const { Link } = Typography;
 
-const CustomCards = ({ cards }) => {
-  const [projectCards, setProjectCards] = useState(cards.map(card => ({ ...card, showFullDescription: false })));
+const CustomCards = ({ cards, onFavorite, favorites }) => {
+  const [projectCards, setProjectCards] = useState(cards.map(card => ({ ...card, showFullDescription: false, isFavorite: favorites.includes(card.name) })));
 
   useEffect(() => {
-    setProjectCards(cards.map(card => ({ ...card, showFullDescription: false })));
-  }, [cards]);
+    setProjectCards(cards.map(card => ({ ...card, showFullDescription: false, isFavorite: favorites.includes(card.name) })));
+  }, [cards, favorites]);
 
   const toggleDescription = (index) => {
     setProjectCards(projectCards.map((card, i) => i === index ? { ...card, showFullDescription: !card.showFullDescription } : card));
+  };
+
+  const toggleFavorite = (index) => {
+    setProjectCards(projectCards.map((card, i) => {
+      if (i === index) {
+        const updatedCard = { ...card, isFavorite: !card.isFavorite };
+        const favoritesFromStorage = JSON.parse(localStorage.getItem('favorites')) || [];
+        if (favoritesFromStorage.includes(updatedCard.name)) {
+          localStorage.setItem('favorites', JSON.stringify(favoritesFromStorage.filter(favorite => favorite !== updatedCard.name)));
+        } else {
+          localStorage.setItem('favorites', JSON.stringify([...favoritesFromStorage, updatedCard.name]));
+        }
+        return updatedCard;
+      }
+      return card;
+    }));
   };
 
   return (
@@ -30,7 +46,7 @@ const CustomCards = ({ cards }) => {
                 <Card hoverable title={<Link href={card.website} target='_blank' className='link-style'>{card.name}</Link>} bordered={true} >
                   <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: 16 }}>
                     <Meta
-                      avatar={<FontAwesomeIcon icon={card.icon in fas ? fas[card.icon] : fas['faQuestion']} size='3x' color='#f5f5f5' border className='icon-style' />}
+                      avatar={<FontAwesomeIcon icon={card.icon in fas ? fas[card.icon] : fas['faQuestion']} size='3x' color={card.isFavorite ? '#C13540' : '#f5f5f5'} border className='icon-style' onClick={() => toggleFavorite(index)} />}
                       title={card.title}
                       description={card.showFullDescription ? card.description : `${card.description.substring(0, 100)}...`}
                     />
