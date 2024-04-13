@@ -19,8 +19,8 @@ const LeftSidebar = ({ cards, onSearchChange }) => {
     onSearchChange(event.target.value);
   }
   return (
-      <Sider className="sider-container" theme="light" width="250" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', position: 'fixed'}}>
-        <div className="content-style">
+      <Sider className="sider-container" theme="light" width="250" style={{ height: '100hv', position: 'fixed' }}>
+        <div className="content-style" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%'}}>
           <Divider />
           <div className="image-container">
             <div className='circle-stye'>
