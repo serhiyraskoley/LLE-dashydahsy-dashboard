@@ -1,25 +1,25 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   background: whitesmoke;
 }
 .block {
   transition: all 0.2s ease-in;
+  border-radius: 10px;
 }
 .block:hover {
   transition: all 0.2s ease-out;
   scale: 1.005;
 }
-.block:hover .icon-style {
-  color: #363092;
-}
-.block:hover .fa-border {
-  border-color: #363092;
+.block:hover .icon-style:active {
+  color: #C13540;
 }
 .block:hover .ant-card-meta-description {
   color: rgba(0, 0, 0, 0.88);
+}
+.block:hover {
+  border: 1px solid #363092;
 }
 .me:hover::after {
   content: '😶‍🌫️ Serhii Raskolei';
