@@ -7,12 +7,8 @@ import CountUp from 'react-countup';
 
 const { Sider } = Layout;
 const { Link } = Typography;
-const { Search } = Input;
 
 const formatter = (value) => <CountUp end={value} duration={1} />;
-
-// (value: number, name: string
-// = (value) => <CountUp end={value} duration={5} />;
 
 const LeftSidebar = ({ cards, onSearchChange }) => {
   const handleSearchChange = (event) => {
