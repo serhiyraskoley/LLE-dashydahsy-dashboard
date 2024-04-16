@@ -10,7 +10,7 @@ body {
 }
 .block:hover {
   transition: all 0.2s ease-out;
-  scale: 1.005;
+  scale: 1.0005;
 }
 .block:hover .icon-style:active {
   color: #C13540;
