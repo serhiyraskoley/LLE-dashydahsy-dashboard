@@ -21,19 +21,16 @@ const App = () => {
     localStorage.setItem('favorites', JSON.stringify(favorites));
   }, [favorites]);
 
-  const handleFavorite = (card) => {
-    const favoritesFromStorage = [...favorites];
-    const existingFavorite = favoritesFromStorage.find(favorite => favorite.name === card.name);
-
-    if (existingFavorite) {
-      setFavorites(favoritesFromStorage.filter(favorite => favorite.name !== card.name));
-    } else {
-      setFavorites([...favoritesFromStorage, { name: card.name, maintainer: card.maintainer, icon: card.icon }]);
-    }
-  };
-
   const handleRemoveFavorite = (card) => {
-    setFavorites(favorites.filter(favorite => favorite.name !== card.name));
+    const updatedFavorites = favorites.filter(favorite => favorite.name !== card.name);
+    setFavorites(updatedFavorites);
+    localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
+  }
+
+  const handleAddFavorite = (card) => {
+    const updatedFavorites = [...favorites, card];
+    setFavorites(updatedFavorites);
+    localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
   }
 
   return (
@@ -41,8 +38,8 @@ const App = () => {
         <LeftSidebar cards={filteredCards} onSearchChange={handleSearchChange} />
         <Layout style={{ marginLeft: 245 }}>
           <Content>
-            <Favorites cards={favorites} onFavorite={handleFavorite} onRemoveFavorite={handleRemoveFavorite} />
-            <CustomCards cards={filteredCards} onFavorite={handleFavorite} favorites={favorites} />
+            <Favorites favorites={favorites} onRemoveFavorite={handleRemoveFavorite} />
+            <CustomCards cards={filteredCards} favorites={favorites} onAddFavorite={handleAddFavorite} onRemoveFavorite={handleRemoveFavorite} />
           </Content>
         </Layout>
       </Layout>

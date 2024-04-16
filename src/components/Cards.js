@@ -9,7 +9,7 @@ library.add(fas);
 const { Meta } = Card;
 const { Link } = Typography;
 
-const CustomCards = ({ cards, favorites }) => {
+const CustomCards = ({ cards, favorites, onAddFavorite, onRemoveFavorite }) => {
   const [projectCards, setProjectCards] = useState(cards.map(card => ({ ...card, showFullDescription: false, isFavorite: favorites.includes(card.name) })));
 
   useEffect(() => {
@@ -33,8 +33,10 @@ const CustomCards = ({ cards, favorites }) => {
 
         if (existingFavorite) {
           localStorage.setItem('favorites', JSON.stringify(favoritesFromStorage.filter(favorite => favorite.name !== updatedCard.name)));
+          onRemoveFavorite(updatedCard);
         } else {
-          localStorage.setItem('favorites', JSON.stringify([...favoritesFromStorage, { name: updatedCard.name, maintainer: updatedCard.maintainer, icon: updatedCard.icon }]));
+          localStorage.setItem('favorites', JSON.stringify([...favoritesFromStorage, { name: updatedCard.name, maintainer: updatedCard.maintainer, icon: updatedCard.icon, website: updatedCard.website }]));
+          onAddFavorite(updatedCard);
         }
         return updatedCard;
       }
@@ -43,7 +45,7 @@ const CustomCards = ({ cards, favorites }) => {
   };
 
   return (
-    <>
+    <React.Fragment>
     <Divider>Projects</Divider>
       <Row gutter={[16]} orientation='end' style={{padding: 34, marginLeft: 0, marginRight: 0}}>
         {projectCards.map((card, index) => (
@@ -66,7 +68,7 @@ const CustomCards = ({ cards, favorites }) => {
           </React.Fragment>
         ))}
       </Row>
-      </>
+      </React.Fragment>
   );
 }
 
