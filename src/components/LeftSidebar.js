@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Typography, Divider, Input, Statistic } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logo from '../assets/logo.png';
+import logo from '../assets/rocket-logo.gif';
 import '../assets/App.css'
 import CountUp from 'react-countup';
 

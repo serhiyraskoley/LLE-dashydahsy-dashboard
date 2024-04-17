@@ -89,20 +89,20 @@ body {
 @keyframes rocket-flying {
   0% {
     transform: translate(1px, 1px);
-    scale: 1.1;
+    scale: 1.01;
   }
   25% {
-    transform: translate(-2px, -1px);
+    transform: translate(-1px, -1px);
   }
   50% {
-    transform: translate(2px, 4px);
+    transform: translate(2px, 2px);
   }
   75% {
-    transform: translate(-1px, -2px);
+    transform: translate(-1px, -1px);
   }
   100% {
-    transform: translate(2px, -1px);
-    scale: 1.2;
+    transform: translate(1px, -1px);
+    scale: 1.02;
   }
 }
 
