@@ -1,5 +1,5 @@
-import React,{useEffect} from 'react';
-import { Typography, Divider, Card, List, Tag } from 'antd';
+import React from 'react';
+import { Typography, Divider, Card, List } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
