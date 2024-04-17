@@ -111,3 +111,12 @@ body {
   scale: 1.0005;
   border: 1px solid #C13540;
 }
+
+@media screen and (max-width: 1360px) {
+  .block .ant-card-meta-description {
+    display: none;
+  }
+  .block .ant-btn-link span {
+    display: none;
+  }
+}
