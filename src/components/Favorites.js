@@ -13,8 +13,8 @@ const Favorites = ({ favorites, onRemoveFavorite }) => {
     <React.Fragment>
       <Divider>Favorites</Divider>
       <List
-        style={{marginLeft: 30, maxWidth: 1585, margin: 'auto'}}
-        grid={{ gutter: 16, column:  6}}
+        style={{ padding: 40 }}
+        grid={{ gutter: 16, column: 6}}
         dataSource={favorites}
         renderItem={favorite => (
           <List.Item>
