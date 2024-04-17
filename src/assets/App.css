@@ -105,3 +105,9 @@ body {
     scale: 1.2;
   }
 }
+
+.favorite-block:hover {
+  transition: all 0.2s ease-out;
+  scale: 1.0005;
+  border: 1px solid #C13540;
+}
