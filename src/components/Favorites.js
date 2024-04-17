@@ -18,7 +18,7 @@ const Favorites = ({ favorites, onRemoveFavorite }) => {
         dataSource={favorites}
         renderItem={favorite => (
           <List.Item>
-            <Card hoverable>
+            <Card hoverable className='favorite-block'>
               <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
                 <Link href={favorite.website} target='_blank' className='link-style' style={{ textAlign: 'center' }}><strong>{favorite.name}</strong></Link><br />
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
