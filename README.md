@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+**LLE-dashydashy-dashboard** is a web application created with React and Ant Design that is designed to manage internal projects in an IT company and manage the services that are used most often. The main purpose of this tool is to view projects in production.
+![image](https://github.com/serhiyraskoley/LLE-dashydahsy-dashboard/assets/22105624/24c2840c-751b-4a36-9c42-ec608cb531c2)
+
+
+The main functionality:
+* Viewing projects in production.
+*The user can view the list of projects that have already been launched into production*
+* Saving cards of favorite services.
+*The user can add services to favorites, saving their cards for quick access.* 
+* Search for services.
+*The application has a function to search for services by the maintainer.*
+* Local data storage.
+*All data on projects and cards of selected services are stored in the local storage of the user's browser for constant access.*
+
+Technical details:
+* Frontend:
+The frontend of the application is developed using React and Ant Design to create a user-friendly and aesthetic interface.
+* Data storage:
+Local browser storage is used to store all user data, ensuring its availability between sessions of using the application.
+* Interface:
+The application interface has a simple and intuitive design so that users can easily use all the features without any extra effort.
+
+<details>
+<summary>React default readme file</summary>
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +92,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</details>
