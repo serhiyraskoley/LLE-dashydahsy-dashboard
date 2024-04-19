@@ -2,8 +2,6 @@ import React from 'react';
 import { Layout, Typography, Divider, Input, Statistic } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from '../assets/rocket-logo.gif';
-// import '../assets/App.css'
-// import './LeftSidebar.css';
 import CountUp from 'react-countup';
 
 const { Sider } = Layout;
