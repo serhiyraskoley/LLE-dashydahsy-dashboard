@@ -18,12 +18,12 @@ const Favorites = ({ favorites, onRemoveFavorite }) => {
         dataSource={favorites}
         renderItem={favorite => (
           <List.Item>
-            <Card hoverable className='favorite-block'>
-              <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-                <Link href={favorite.website} target='_blank' className='link-style' style={{ textAlign: 'center' }}><strong>{favorite.name}</strong></Link><br />
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
-                  <FontAwesomeIcon icon={favorite.icon in fas ? fas[favorite.icon] : fas['faQuestion']} size='3x' color='#C13540' border onClick={() => onRemoveFavorite(favorite)} />
-                </div>
+            <Card hoverable className='favorite-block' >
+              <FontAwesomeIcon className='close' icon={fas['faXmark']} size='1x' color='#C13540' onClick={() => onRemoveFavorite(favorite)}/>
+              <div className="header-favorite-card">
+                <Link href={favorite.website} target='_blank' className='link-style'><strong>{favorite.name}</strong><br />
+                  <FontAwesomeIcon icon={favorite.icon in fas ? fas[favorite.icon] : fas['faQuestion']} size='3x' color='#C13540' border />
+                </Link>
               </div>
             </Card>
           </List.Item>

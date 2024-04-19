@@ -2,7 +2,8 @@ import React from 'react';
 import { Layout, Typography, Divider, Input, Statistic } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from '../assets/rocket-logo.gif';
-import '../assets/App.css'
+// import '../assets/App.css'
+// import './LeftSidebar.css';
 import CountUp from 'react-countup';
 
 const { Sider } = Layout;
@@ -15,26 +16,26 @@ const LeftSidebar = ({ cards, onSearchChange }) => {
     onSearchChange(event.target.value);
   }
   return (
-      <Sider className="sider-container" theme="light" width="250" style={{ height: '100hv', position: 'fixed' }}>
-        <div className="content-style" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%'}}>
+      <Sider className="sider-container" theme="light" width="250" >
+        <div className="content-style">
           <Divider />
           <div className="image-container">
-            <div className='circle-stye'>
+            <div className='circle-style'>
               <img src={logo} width={"70px"} className='rocket' alt="logo" />
             </div>
           </div>
           <Divider />
-          <p><Input placeholder="Search by maintainer" allowClear onChange={handleSearchChange} /></p> {/*value={searchBy} onChange={handleSearchChange}*/}
+          <p><Input placeholder="Search by maintainer" allowClear onChange={handleSearchChange} /></p>
           <Divider />
-          <Statistic title="Projects" value={cards.length} className="center-text" formatter={formatter} /> {/*value={internalSoftware.length } formatter={formatter}*/}
+          <Statistic title="Projects" value={cards.length} className="center-text" formatter={formatter}/>
           <Divider />
-          <Link href="http://terdvp0001.sebn.com:5000/public/dashboards/zA0lU6QjX5zN2tgcExamQ91A4lLRqj32EqrLHFZq?org_slug=default" target="_blank" className="center-text">
+          <Link href="#" target="_blank" className="center-text">
             <p>You can see our progress on the</p> public dashboard
           </Link>
           <Divider />
           Made with
           <p>
-            <FontAwesomeIcon icon="fa-heart" size="8x" color="#C13540" />
+            <FontAwesomeIcon icon="fa-heart" size="4x" color="#C13540" />
           </p>
           by
           <p><span className="me span-style">IT department</span></p>

@@ -52,7 +52,7 @@ const CustomCards = ({ cards, favorites, onAddFavorite, onRemoveFavorite }) => {
           <React.Fragment key={index}>
             <Col span={8} style={{ padding: 8 }}>
               <div className='block'>
-                <Card hoverable title={<Link href={card.website} target='_blank' className='link-style'>{card.name}</Link>} bordered={true} >
+                <Card className='card' hoverable title={<Link href={card.website} target='_blank' className='link-style'>{card.name}</Link>} bordered={true} >
                   <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                     <Meta
                       avatar={<FontAwesomeIcon icon={card.icon in fas ? fas[card.icon] : fas['faQuestion']} size='3x' color={card.isFavorite ? '#C13540' : '#363092'} border className='icon-style' onClick={() => toggleFavorite(index)} />}
@@ -60,7 +60,7 @@ const CustomCards = ({ cards, favorites, onAddFavorite, onRemoveFavorite }) => {
                       description={card.showFullDescription ? card.description : `${card.description.substring(0, 100)}...`}
                     />
                     <Button type="link" onClick={() => toggleDescription(index)}>{card.showFullDescription ? 'Show less' : 'Show more'}</Button>
-                    <Tag color='#363092' style={{ marginTop: 16 }}>Maintainer: <strong>{card.maintainer}</strong></Tag>
+                    <Tag color='#363092'>Maintainer: <strong>{card.maintainer}</strong></Tag>
                   </div>
                 </Card>
               </div>
