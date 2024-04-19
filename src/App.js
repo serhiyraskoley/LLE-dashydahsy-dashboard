@@ -4,6 +4,7 @@ import LeftSidebar from "./components/LeftSidebar";
 import CustomCards from "./components/Cards";
 import Favorites from "./components/Favorites";
 import cardData from './card.json';
+import './App.css';
 
 const { Content } = Layout;
 
