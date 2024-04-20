@@ -1,24 +1,18 @@
-**LLE-dashydashy-dashboard** is a web application created with React and Ant Design that is designed to manage internal projects in an IT company and manage the services that are used most often. The main purpose of this tool is to view projects in production.
+## LLE-dashy-dashy-dashboard
+**LLE-dashy-dashy-dashboard** is an application that provides users with a user-friendly interface for viewing deployed projects and adding them to the favorites list for quick access. The application retrieves data from the card.json file, which is currently manually populated.
 ![image](https://github.com/serhiyraskoley/LLE-dashydahsy-dashboard/assets/22105624/24c2840c-751b-4a36-9c42-ec608cb531c2)
 
-
-The main functionality:
-* Viewing projects in production.
-*The user can view the list of projects that have already been launched into production*
-* Saving cards of favorite services.
-*The user can add services to favorites, saving their cards for quick access.* 
-* Search for services.
-*The application has a function to search for services by the maintainer.*
-* Local data storage.
-*All data on projects and cards of selected services are stored in the local storage of the user's browser for constant access.*
+Main functionality:
+* Viewing projects: The user can view cards describing projects that are deployed and available for use.
+![image](https://github.com/serhiyraskoley/LLE-dashydahsy-dashboard/assets/22105624/3deb4775-f708-4c3c-a5f5-8a7139a8c230)
+* Add to favorites: The user can add projects to the favorites list to have quick access to them. The card changes color.
+  ![image](https://github.com/serhiyraskoley/LLE-dashydahsy-dashboard/assets/22105624/63317608-03dd-4d91-9b7c-786c63c69e83)
+* Search for projects by maintainer.
+![image](https://github.com/serhiyraskoley/LLE-dashydahsy-dashboard/assets/22105624/c7249088-561c-47d6-aec7-ffefa81be2e3)
 
 Technical details:
-* Frontend:
-The frontend of the application is developed using React and Ant Design to create a user-friendly and aesthetic interface.
-* Data storage:
-Local browser storage is used to store all user data, ensuring its availability between sessions of using the application.
-* Interface:
-The application interface has a simple and intuitive design so that users can easily use all the features without any extra effort.
+* Card.json file: The application retrieves project data from the card.json file, which contains information about the project name, description, links, and other details.
+* Favorite projects: The user can add projects to the list of favorites which save in browser local storage, which will be displayed at the top of the screen for quick access.
 
 <details>
 <summary>React default readme file</summary>
