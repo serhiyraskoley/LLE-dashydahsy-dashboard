@@ -1,5 +1,5 @@
 ## LLE-dashy-dashy-dashboard
-**LLE-dashy-dashy-dashboard** is an application that provides users with a user-friendly interface for viewing deployed projects and adding them to the favorites list for quick access. The application retrieves data from the card.json file, which is currently manually populated.
+**LLE-dashy-dashy-dashboard** is an application that provides users with a user-friendly interface for viewing deployed projects and adding them to the favorites list for quick access. The application retrieves data from the card.json file, which is currently manually filled in.
 ![image](https://github.com/serhiyraskoley/LLE-dashydahsy-dashboard/assets/22105624/24c2840c-751b-4a36-9c42-ec608cb531c2)
 
 Main functionality:
